@@ -1,0 +1,32 @@
+id,source_lang,category,term,source,intended_meaning,meaning_verified,verify_source,raw_translation,baseline_rating
+1,zh,slang,躺平,我不想再努力了，我要躺平。,I don't want to keep pushing myself; I'm opting out of the rat race.,,,I don't want to try anymore. I'm going to lay flat.,good
+2,zh,slang,卷 / 躺平,现在工作太卷了，我想躺平。,Work is so cutthroat now that I just want to opt out.,,,"Now the job's too curly, I'd like to lay flat.",wrong
+3,zh,slang,内卷,我们公司太内卷了，大家都加班到十点。,My company is hyper-competitive; everyone works overtime until 10.,,,We're too introverted. We're all working till 10:00.,wrong
+4,zh,slang,破防,看到那个视频我直接破防了。,That video hit me hard emotionally.,,,I just broke it when I saw that video.,awkward
+5,zh,slang,社恐,我是社恐，不想去那个聚会。,"I'm socially anxious/awkward, so I don't want to go to that party.",,,I'm scared. I don't want to go to that party.,good
+6,zh,slang,打工人,打工人又要上班了。,Back to the grind again (self-deprecating joke about being a worker).,,,Beating the workers is going to work again.,awkward
+7,zh,slang,凡尔赛,别凡尔赛了，你明明考得很好。,"Stop humblebragging, you obviously did great on the exam.",,,"Oh, come on, Versailles. You did a great job.",wrong
+8,zh,slang,佛系,他对考试很佛系。,He's very laid-back about exams and doesn't stress.,,,He's very Buddhist in his exams.,awkward
+9,zh,slang,吃瓜,我就是来吃瓜的。,I'm just here to watch the drama.,,,I'm here to eat melons.,wrong
+10,zh,slang,离谱,这个价格太离谱了。,This price is ridiculous.,,,This price is ridiculous.,good
+11,zh,slang,上头,这个游戏太上头了。,This game is so addictive.,,,This game is too high.,wrong
+12,zh,slang,yyds,这家火锅yyds！,This hotpot place is the best / the GOAT.,,,This fire potyds!,wrong
+13,zh,slang,emo,我今天有点emo。,I'm feeling kind of down today.,,,I'm a little emo today.,awkward
+14,zh,slang,绝了,这个菜绝了！,This dish is amazing!,,,This one's perfect!,good
+15,zh,dropped subject,,我昨天去找他了，但是不在。,"I went to see him yesterday, but he wasn't there.",,,"I went to see him yesterday, but I wasn't there.",wrong
+16,zh,dropped subject,,昨天给他发消息，一直没回。,I texted him yesterday and he never replied.,,,"I sent him a message yesterday, and I haven't returned.",wrong
+17,zh,dropped subject,,我去她家找她，结果不在家。,"I went to her place, but she wasn't home.",,,"I went to her house to find her, and I wasn't home.",wrong
+18,zh,code-switching,,这个 project 的 deadline 是明天。,This project's deadline is tomorrow.,,,This project's deadline is tomorrow.,good
+19,zh,code-switching,,我明天有个 meeting，不能去了。,"I have a meeting tomorrow, so I can't go.",,,I have a meeting tomorrow. I can't go.,good
+20,zh,plain (control),,今天天气很好。,The weather is nice today.,,,It's a nice day.,good
+21,zh,plain (control),,你吃饭了吗？,Have you eaten? (often used as a casual greeting),,,Have you eaten yet?,good
+22,en,slang,no cap,"No cap, that exam was brutal.","Honestly, that exam was really hard.",,,"没有帽子,那考试是残酷的。",
+23,en,slang,lowkey,I'm lowkey tired of this class.,I'm kind of / secretly tired of this class.,,,我受够这班了,
+24,en,slang,it's giving,Your outfit is giving main character.,"Your outfit makes you look confident, like the star of the show.",,,你的衣服是给主人物。,
+25,en,slang,mid,That movie was mid.,That movie was mediocre.,,,那部电影是中间的。,
+26,en,slang,bet,"Bet, I'll see you at six.","Okay, sounds good, I'll see you at six.",,,"我打赌,六点见",
+27,en,slang,sus,That guy is acting kind of sus.,That guy is acting kind of suspicious.,,,那家伙表现得有点像苏斯,
+28,en,slang,ghosted,She ghosted me after our first date.,She stopped replying without explanation after our first date.,,,"我们第一次约会后,她就把我鬼鬼祟祟了",
+29,en,slang,I'm dead,"I'm dead, that video was so funny.","I'm laughing so hard, that video was so funny.",,,"我死了,那视频太好笑了。",
+30,en,idiom,break a leg,Break a leg tonight!,Good luck with your performance tonight!,,,祝今晚好运!,
+31,en,plain (control),,Can you pass me the salt?,Can you pass me the salt?,,,能把盐递给我吗?,

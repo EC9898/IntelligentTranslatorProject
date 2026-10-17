@@ -1,0 +1,6 @@
+transformers
+sentencepiece
+torch
+pandas
+sacremoses
+ollama
