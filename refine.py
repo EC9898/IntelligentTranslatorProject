@@ -50,14 +50,14 @@ Respond with only JSON: {"refined": string, "changed": boolean, "reason": string
 FEW_SHOT = [
     ("zh", "en", "我给她打电话，但是没接。", "I called her, but I didn't answer.",
      {"refined": "I called her, but she didn't pick up.", "changed": True,
-      "reason": "subject dropped in source; translation wrongly assumed 'I'"}),
+      "reason": "subject dropped in source; translation wrongly made the speaker the one who didn't answer"}),
     ("zh", "en", "这周作业太多了，我直接摆烂了。",
      "There's too much homework this week, I just let it rot.",
      {"refined": "I had way too much homework this week, so I just gave up on it.",
       "changed": True, "reason": "摆烂 is slang for giving up; translated literally"}),
     ("en", "zh", "That party was lit.", "那个派对被点燃了。",
      {"refined": "那个派对太嗨了。", "changed": True,
-      "reason": "'lit' is slang for exciting; translated as literally set on fire"}),
+      "reason": "lit is slang for exciting; translation took it literally as set on fire"}),
     ("en", "zh", "Thank you so much for your help.", "非常感谢你的帮助。",
      {"refined": "非常感谢你的帮助。", "changed": False,
       "reason": "accurate and natural"}),
@@ -100,8 +100,11 @@ def refine(src, source, raw):
         content = response["message"]["content"].strip()
         content = content.removeprefix("```json").removeprefix("```").removesuffix("```")
         out = json.loads(content)
+        if not out["refined"].strip():
+            # valid JSON but no translation (4b did this once); don't output a blank line
+            return raw, False, "EMPTY_OUTPUT"
         return out["refined"], out["changed"], out["reason"]
-    except (json.JSONDecodeError, KeyError):       
+    except (json.JSONDecodeError, KeyError, AttributeError):
         return raw, False, "PARSE_ERROR"
 
 
