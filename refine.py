@@ -45,7 +45,7 @@ slang or casual phrasing in the target language.
 
 Respond with only JSON: {"refined": string, "changed": boolean, "reason": string}"""
 
-# Few-shot examples. Never use test set sentences here (data leakage).
+# Few-shot examples made by Claude. Never use test set sentences here (data leakage).
 # The last one is already correct, so the model sees that "no change" is allowed.
 FEW_SHOT = [
     ("zh", "en", "我给她打电话，但是没接。", "I called her, but I didn't answer.",
@@ -97,10 +97,11 @@ def refine(src, source, raw):
                            think=False,  # with thinking on, qwen3.5 returns empty content
                            options={"temperature": 0})  # 0 so reruns give the same output
     try:
-        out = json.loads(response["message"]["content"])
+        content = response["message"]["content"].strip()
+        content = content.removeprefix("```json").removeprefix("```").removesuffix("```")
+        out = json.loads(content)
         return out["refined"], out["changed"], out["reason"]
-    except (json.JSONDecodeError, KeyError):
-        # bad JSON: keep the raw translation and flag the row
+    except (json.JSONDecodeError, KeyError):       
         return raw, False, "PARSE_ERROR"
 
 
@@ -115,6 +116,6 @@ for _, row in df.iterrows():
           f"    -> {refined}  ({'changed' if changed else 'kept'}: {reason})")
 
 df["refined"], df["changed"], df["reason"] = zip(*results)
-df["refined_rating"] = ""   # rated by hand afterwards
+df["refined_rating"] = ""   
 df.to_csv(OUT_PATH, index=False, encoding="utf-8-sig")
 print(f"\nSaved {len(df)} rows to {OUT_PATH}")
