@@ -1,0 +1,64 @@
+﻿id,option,model,reason
+1,A,qwen3.5-4b,"""lay flat"" is a literal mistranslation of the slang ""躺平"" (tang ping), which means giving up and relaxing/idling rather than literally lying on the ground."
+1,B,qwen3.5-2b,lay flat is slang for giving up or relaxing; literal translation 'lying flat' sounds unnatural
+1,C,qwen3.5-9b,"""躺平"" is a specific Chinese slang term meaning to opt out of the rat race or stop striving for success (often translated as ""lying flat""); while ""lay flat"" captures the literal action, adding context like ""put in any more effort"" clarifies the intended idiom rather than just describing a physical posture."
+2,A,qwen3.5-9b,"""卷"" refers to intense workplace competition/hustle culture, not literally ""curly""; ""躺平"" is a specific slang term for opting out of the rat race/lying flat that needs cultural adaptation rather than literal translation"
+2,B,qwen3.5-4b,"""卷"" means being overly competitive or cutthroat; ""躺平"" is slang for giving up on striving and doing the bare minimum. The translation was a literal mistranslation of these idioms."
+2,C,qwen3.5-2b,work 'vol' translated literally as 'curly'; slang 'lay flat' requires explanation
+3,A,qwen3.5-4b,"""内卷"" means internal competition/rat race in a work context; ""introverted"" refers to personality traits"
+3,B,qwen3.5-9b,"内卷 refers to intense internal competition/involution in a workplace context, not introversion"
+3,C,qwen3.5-2b,内卷 literally means 'involution' or excessive competition; translated as introverted and literalized the time
+4,A,qwen3.5-4b,"""broke"" is slang for losing composure or mental stability; ""破防"" was translated literally as breaking something"
+4,B,qwen3.5-9b,破防 is internet slang meaning being emotionally overwhelmed or having one's defenses broken; translated literally as breaking an object
+4,C,qwen3.5-2b,broken hearted/heart broken is slang for emotional impact; literal 'broke' does not convey this meaning
+5,A,qwen3.5-4b,"""社恐"" is a specific slang term for having social anxiety; ""scared"" alone misses the nuance of being uncomfortable in social situations rather than just afraid."
+5,B,qwen3.5-2b,社恐 is slang for having social anxiety; literal translation 'scared' changes meaning
+5,C,qwen3.5-9b,社恐 is an abbreviation for 社交恐惧症 (social phobia/social anxiety); translated literally as 'scared' loses the specific meaning
+6,A,qwen3.5-2b,摆烂 was slang for giving up; translated literally
+6,B,qwen3.5-4b,"""Beating"" and ""work"" were mistranslated from slang terms; corrected meaning of '打工人' as a self-deprecating term for employees and '上班' as going to work."
+6,C,qwen3.5-9b,"""打工"" refers to being an employee or working a job, not ""beating workers""; literal translation creates a violent and incorrect meaning"
+7,A,qwen3.5-4b,"""Van Rosse"" is slang for pretending to be humble when one has achieved something good (often by downplaying it). The translation treated 'Versailles' as a proper noun/name rather than the idiom. Also corrected the tone from condescending ('Oh, come on') to supportive/teasing based on context."
+7,B,qwen3.5-9b,凡尔赛 is internet slang for 'humble-brag'; translation used literal place name
+7,C,qwen3.5-2b,凡尔赛 is slang for acting superior or bragging about success; literal translation of 'act' and 'winning' was incorrect
+8,A,qwen3.5-4b,"""佛系"" means ""laid-back"" or ""carefree"", not literally related to Buddhism; 'buddhist' was a mistranslation of this slang"
+8,B,qwen3.5-9b,"""fó xì"" (buddhist) here means relaxed or indifferent; literal ""Buddhist"" translation misses the intended meaning of being chill"
+8,C,qwen3.5-2b,佛教徒 refers to Buddhists; '佛系' means laid-back/relaxed
+9,A,qwen3.5-4b,"""eat melon"" is a slang idiom meaning to watch or listen in on others' business; translated literally as eating actual fruit"
+9,B,qwen3.5-9b,"""eating melon"" is an idiom meaning watching gossip or a spectacle; literal translation misses the intended meaning"
+9,C,qwen3.5-2b,eat melon is literal; slang 'eating melons' refers to consuming news/gossip
+10,A,qwen3.5-4b,"""outrageous"" better captures the strong negative emotion of ""离谱"" than just ""ridiculous"", which can sound milder or slightly different in tone."
+10,B,qwen3.5-2b,literal 'ridiculous' translated literally; added natural adjective for idiomatic effect.
+10,C,qwen3.5-9b,"离谱 implies something unreasonable or absurd in a way that 'outrageous' captures better than the neutral 'ridiculous', though both are acceptable; keeping it close to source tone"
+11,A,qwen3.5-2b,太顶/上头 means 'addictive' or 'engrossing'; literal translation of 高 (high) would be incorrect.
+11,B,qwen3.5-4b,"""上头"" is slang for being extremely engaging or addictive; ""too high"" was a literal mistranslation"
+11,C,qwen3.5-9b,"""上头"" in this context means being highly engaging or addictive; the literal translation ""too high"" misses the intended meaning."
+12,A,qwen3.5-9b,"""fire pot"" is a mistranslation of ""huoguo"" (hotpot); kept the slang acronym ""yyds"" as it is commonly understood in English-speaking contexts familiar with Chinese internet culture."
+12,B,qwen3.5-4b,"""fire"" was a mistranslation of ""hot"", and the sentence structure should match the source's casual tone"
+12,C,qwen3.5-2b,yyds is slang for 'best ever'; literal translation of the characters was incorrect and unnatural.
+13,A,qwen3.5-2b,emo is slang for feeling sad; literal translation 'sad' sounds unnatural
+13,B,qwen3.5-4b,"""emo"" is slang for feeling sad or blue; ""a little emo"" sounds unnatural in English and the literal meaning doesn't capture the emotional state intended."
+13,C,qwen3.5-9b,"""emo"" is internet slang for being sad or emotionally unstable; translating it literally as the noun ""emo"" sounds unnatural in standard English."
+14,A,qwen3.5-4b,"""绝了"" implies something is outstanding or incredible; ""perfect"" is too mild and misses the enthusiastic tone."
+14,B,qwen3.5-9b,"""绝了"" in this context expresses extreme praise or excitement about the food; ""perfect"" misses the colloquial intensity and specific reference to a dish."
+14,C,qwen3.5-2b,absolutely/绝了 implies strong positive sentiment; 'perfect' lacks the intensity of slang
+15,A,qwen3.5-2b,昨天 implies 'yesterday' specifically; 不在 is ambiguous and should be clarified as 'not present/here'
+15,B,qwen3.5-4b,source implies the person sought was absent; machine translation incorrectly states the speaker was not present
+15,C,qwen3.5-9b,subject dropped in source; translation wrongly made the speaker absent instead of 'him'
+16,A,qwen3.5-2b,missing subject 'he'; literal interpretation of 没回 as 'haven't returned' is unnatural
+16,B,qwen3.5-9b,The source implies the recipient didn't reply; the machine translation incorrectly made the speaker 'haven't returned'
+16,C,qwen3.5-4b,Source implies the speaker sent the message while 'he' did not reply; translation incorrectly made the subject of 'haven't returned' refer to the sender
+17,A,qwen3.5-4b,Source implies the speaker visited someone else's house; translation incorrectly made the speaker 'not at home'
+17,B,qwen3.5-9b,subject dropped in source; translation wrongly made the speaker 'not be at home' instead of 'she not being there'}
+17,C,qwen3.5-2b,PARSE_ERROR
+18,A,qwen3.5-9b,mixed language in source; translated English words to natural Chinese
+18,B,qwen3.5-2b,"project should be capitalized; 'deadline' in Chinese context often refers to the specific time of completion rather than a general term like 'due date', though both are acceptable. The translation improved capitalization and specificity."
+18,C,qwen3.5-4b,accurate and natural
+19,A,qwen3.5-9b,"added 'so' to connect the clauses naturally and changed 'go' to 'make it', which is more idiomatic for attending an event"
+19,B,qwen3.5-4b,Added 'so' to connect the cause and effect naturally; changed 'go' to 'make it' which is more idiomatic for attending an event
+19,C,qwen3.5-2b,meeting is often used as an uncountable noun in Chinese; 'can't' implies inability due to the event rather than just scheduling conflict
+20,A,qwen3.5-9b,"""Nice"" understates the positive tone of ""好"" in this context; ""great"" or ""beautiful"" fits better for describing good weather."
+20,B,qwen3.5-4b,"""nice"" is slightly weak for ""好"" in this context; ""lovely"" better captures the positive tone of good weather."
+20,C,qwen3.5-2b,Added 'very' to match the positive tone of '好'; kept structure natural.
+21,A,qwen3.5-2b,Subject dropped in source; translated literally as 'Have you' which is unnatural English for a question about eating status.
+21,B,qwen3.5-9b,"""eating"" in this context usually refers to the main meal of the day; ""had dinner"" is more natural than literal ""eaten"""
+21,C,qwen3.5-4b,"The source is a common greeting rather than asking about the specific timing 'yet', so removing 'yet' makes it more natural."

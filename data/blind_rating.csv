@@ -1,0 +1,64 @@
+id,category,source,intended_meaning,option,translation,rating
+1,slang,我不想再努力了，我要躺平。,I don't want to keep pushing myself; I'm opting out of the rat race.,A,I don't want to work hard anymore; I'm just gonna lie down.,good
+1,slang,我不想再努力了，我要躺平。,I don't want to keep pushing myself; I'm opting out of the rat race.,B,I no longer feel like trying; I just want to relax.,good
+1,slang,我不想再努力了，我要躺平。,I don't want to keep pushing myself; I'm opting out of the rat race.,C,I don't want to put in any more effort; I'm just going to lie flat.,awkward
+2,slang,现在工作太卷了，我想躺平。,Work is so cutthroat now that I just want to opt out.,A,Work is way too competitive now; I want to lie flat.,awkward
+2,slang,现在工作太卷了，我想躺平。,Work is so cutthroat now that I just want to opt out.,B,Nowadays work is so competitive that I just want to lie down and do nothing.,good
+2,slang,现在工作太卷了，我想躺平。,Work is so cutthroat now that I just want to opt out.,C,Now work is so competitive that I want to just relax.,good
+3,slang,我们公司太内卷了，大家都加班到十点。,My company is hyper-competitive; everyone works overtime until 10.,A,Our company is so competitive that everyone works until ten.,good
+3,slang,我们公司太内卷了，大家都加班到十点。,My company is hyper-competitive; everyone works overtime until 10.,B,Our company is way too competitive; everyone works until ten.,good
+3,slang,我们公司太内卷了，大家都加班到十点。,My company is hyper-competitive; everyone works overtime until 10.,C,"Our company is so competitive, everyone works until midnight.",wrong
+4,slang,看到那个视频我直接破防了。,That video hit me hard emotionally.,A,I completely lost my mind after seeing that video.,awkward
+4,slang,看到那个视频我直接破防了。,That video hit me hard emotionally.,B,I was so emotionally affected by that video.,good
+4,slang,看到那个视频我直接破防了。,That video hit me hard emotionally.,C,I was so moved by the video.,good
+5,slang,我是社恐，不想去那个聚会。,"I'm socially anxious/awkward, so I don't want to go to that party.",A,"I have social anxiety, so I don't want to go to that party.",good
+5,slang,我是社恐，不想去那个聚会。,"I'm socially anxious/awkward, so I don't want to go to that party.",B,"I have social anxiety, so I didn't want to go to the party.",good
+5,slang,我是社恐，不想去那个聚会。,"I'm socially anxious/awkward, so I don't want to go to that party.",C,"I have social anxiety, so I don't want to go to that party.",good
+6,slang,打工人又要上班了。,Back to the grind again (self-deprecating joke about being a worker).,A,The 'working class' are back at work.,awkward
+6,slang,打工人又要上班了。,Back to the grind again (self-deprecating joke about being a worker).,B,Workers are back at work.,awkward
+6,slang,打工人又要上班了。,Back to the grind again (self-deprecating joke about being a worker).,C,It's time for another day at the office.,awkward
+7,slang,别凡尔赛了，你明明考得很好。,"Stop humblebragging, you obviously did great on the exam.",A,Stop being so modest; you clearly scored very well.,good
+7,slang,别凡尔赛了，你明明考得很好。,"Stop humblebragging, you obviously did great on the exam.",B,Stop being humble-bragging; you clearly aced the exam.,good
+7,slang,别凡尔赛了，你明明考得很好。,"Stop humblebragging, you obviously did great on the exam.",C,Don't act like you're winning; you clearly got an A.,awkward
+8,slang,他对考试很佛系。,He's very laid-back about exams and doesn't stress.,A,He is quite laid-off about the exam.,wrong
+8,slang,他对考试很佛系。,He's very laid-back about exams and doesn't stress.,B,He is very laid-back about the exam.,good
+8,slang,他对考试很佛系。,He's very laid-back about exams and doesn't stress.,C,He is very relaxed about the exam.,good
+9,slang,我就是来吃瓜的。,I'm just here to watch the drama.,A,I'm just here for the gossip.,good
+9,slang,我就是来吃瓜的。,I'm just here to watch the drama.,B,I'm just here for the drama.,good
+9,slang,我就是来吃瓜的。,I'm just here to watch the drama.,C,I just came for some gossip.,awkward
+10,slang,这个价格太离谱了。,This price is ridiculous.,A,This price is outrageous.,good
+10,slang,这个价格太离谱了。,This price is ridiculous.,B,This price is outrageous.,good
+10,slang,这个价格太离谱了。,This price is ridiculous.,C,This price is outrageous.,good
+11,slang,这个游戏太上头了。,This game is so addictive.,A,This game is so addictive.,good
+11,slang,这个游戏太上头了。,This game is so addictive.,B,This game is so addictive.,good
+11,slang,这个游戏太上头了。,This game is so addictive.,C,This game is so addictive.,good
+12,slang,这家火锅yyds！,This hotpot place is the best / the GOAT.,A,This hotpot is yyds!,wrong
+12,slang,这家火锅yyds！,This hotpot place is the best / the GOAT.,B,This hotpot is yyds!,wrong
+12,slang,这家火锅yyds！,This hotpot place is the best / the GOAT.,C,This hotpot is yyds!,wrong
+13,slang,我今天有点emo。,I'm feeling kind of down today.,A,I feel down right now.,good
+13,slang,我今天有点emo。,I'm feeling kind of down today.,B,I feel a bit down today.,good
+13,slang,我今天有点emo。,I'm feeling kind of down today.,C,I've been feeling down today.,good
+14,slang,这个菜绝了！,This dish is amazing!,A,This dish is amazing!,good
+14,slang,这个菜绝了！,This dish is amazing!,B,This dish is amazing!,good
+14,slang,这个菜绝了！,This dish is amazing!,C,This dish is absolutely amazing!,good
+15,dropped subject,我昨天去找他了，但是不在。,"I went to see him yesterday, but he wasn't there.",A,"I tried to find him the day before yesterday, but he was not here.",wrong
+15,dropped subject,我昨天去找他了，但是不在。,"I went to see him yesterday, but he wasn't there.",B,"I went to see him yesterday, but he wasn't home.",awkward
+15,dropped subject,我昨天去找他了，但是不在。,"I went to see him yesterday, but he wasn't there.",C,"I went to find him yesterday, but he wasn't there.",good
+16,dropped subject,昨天给他发消息，一直没回。,I texted him yesterday and he never replied.,A,I texted him yesterday but he didn't reply.,good
+16,dropped subject,昨天给他发消息，一直没回。,I texted him yesterday and he never replied.,B,"I messaged him yesterday, but he hasn't replied yet.",good
+16,dropped subject,昨天给他发消息，一直没回。,I texted him yesterday and he never replied.,C,"I texted him yesterday, but he hasn't replied.",good
+17,dropped subject,我去她家找她，结果不在家。,"I went to her place, but she wasn't home.",A,"I went to her house to look for her, but she wasn't there.",good
+17,dropped subject,我去她家找她，结果不在家。,"I went to her place, but she wasn't home.",B,"I went to her place looking for her, but she wasn't home.",good
+17,dropped subject,我去她家找她，结果不在家。,"I went to her place, but she wasn't home.",C,"I went to her house to find her, and I wasn't home.",wrong
+18,code-switching,这个 project 的 deadline 是明天。,This project's deadline is tomorrow.,A,The deadline for this project is tomorrow.,good
+18,code-switching,这个 project 的 deadline 是明天。,This project's deadline is tomorrow.,B,The due date for this project is tomorrow.,good
+18,code-switching,这个 project 的 deadline 是明天。,This project's deadline is tomorrow.,C,This project's deadline is tomorrow.,good
+19,code-switching,我明天有个 meeting，不能去了。,"I have a meeting tomorrow, so I can't go.",A,"I have a meeting tomorrow, so I can't make it.",good
+19,code-switching,我明天有个 meeting，不能去了。,"I have a meeting tomorrow, so I can't go.",B,"I have a meeting tomorrow, so I can't make it.",good
+19,code-switching,我明天有个 meeting，不能去了。,"I have a meeting tomorrow, so I can't go.",C,"I'm having a meeting tomorrow, so I won't be able to attend.",good
+20,plain (control),今天天气很好。,The weather is nice today.,A,The weather is great today.,good
+20,plain (control),今天天气很好。,The weather is nice today.,B,It's a lovely day.,good
+20,plain (control),今天天气很好。,The weather is nice today.,C,It is very good today.,wrong
+21,plain (control),你吃饭了吗？,Have you eaten? (often used as a casual greeting),A,Did you eat?,good
+21,plain (control),你吃饭了吗？,Have you eaten? (often used as a casual greeting),B,Have you had dinner?,awkward
+21,plain (control),你吃饭了吗？,Have you eaten? (often used as a casual greeting),C,Have you eaten?,good
